@@ -1,4 +1,4 @@
-# firefox-tabmove
+# tabmove
 
 # general
 
