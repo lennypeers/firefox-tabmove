@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "tabmove",
-  "version": "1.0",
+  "version": "1.1",
   "description": "move current tab with alt+shit+n",
   "permissions": [
       "tabs",
@@ -9,57 +9,27 @@
   ],
   "commands": {
     "go-to-1": {
-      "description": "go to tab n1",
+      "description": "move to the first index",
       "suggested_key": {
         "default": "Alt+Shift+1"
       }
     },
     "go-to-2": {
-      "description": "go to tab n2",
+      "description": "swap with left tab",
       "suggested_key": {
         "default": "Alt+Shift+2"
       }
     },
     "go-to-3": {
-      "description": "go to tab n3",
+      "description": "swap with right tab",
       "suggested_key": {
         "default": "Alt+Shift+3"
       }
     },
     "go-to-4": {
-      "description": "go to tab n4",
+      "description": "move to the last index",
       "suggested_key": {
         "default": "Alt+Shift+4"
-      }
-    },
-    "go-to-5": {
-      "description": "go to tab n5",
-      "suggested_key": {
-        "default": "Alt+Shift+5"
-      }
-    },
-    "go-to-6": {
-      "description": "go to tab n6",
-      "suggested_key": {
-        "default": "Alt+Shift+6"
-      }
-    },
-    "go-to-7": {
-      "description": "go to tab n7",
-      "suggested_key": {
-        "default": "Alt+Shift+7"
-      }
-    },
-    "go-to-8": {
-      "description": "go to tab n8",
-      "suggested_key": {
-        "default": "Alt+Shift+8"
-      }
-    },
-    "go-to-9": {
-      "description": "go to tab n9",
-      "suggested_key": {
-        "default": "Alt+Shift+9"
       }
     }
   },
